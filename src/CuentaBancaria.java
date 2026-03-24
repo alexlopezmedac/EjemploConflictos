@@ -3,7 +3,7 @@ public class CuentaBancaria {
     private double balance;
 
     public CuentaBancaria() {
-        balance = 0;
+        balance = 750;
     }
 
     public double getBalance() {
@@ -18,8 +18,12 @@ public class CuentaBancaria {
         if (cantidad > 1000) {
             System.out.println("No puedes, corrupto");
         } else {
-                this.balance += cantidad;
+            this.balance += cantidad;
         }
+    }
+
+    public void retirar(int cantidad) {
+        this.balance -= cantidad;
     }
 
 }
