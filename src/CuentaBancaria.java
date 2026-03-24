@@ -3,7 +3,7 @@ public class CuentaBancaria {
     private double balance;
 
     public CuentaBancaria() {
-        balance = 0;
+        balance = 500;
     }
 
     public double getBalance() {
