@@ -14,4 +14,8 @@ public class CuentaBancaria {
         this.balance = balance;
     }
 
+    public void retirar(int cantidad) {
+        this.balance -= cantidad;
+    }
+
 }
